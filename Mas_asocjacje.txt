@@ -1,0 +1,4 @@
+1. Asocjacja zwykła -> Doctor, Specialization
+2. Asocjacja z atrybutem -> Service - Reservation - RegistrationWorker
+3. Asocjacja kwalifikowana -> Accident - HelpdeskWorker
+4. Asocjacja z kompozycją -> Office - Device

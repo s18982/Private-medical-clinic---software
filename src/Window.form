@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Window">
+  <grid id="27dc6" binding="Pan" layout-manager="GridLayoutManager" row-count="8" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="473" height="326"/>
+    </constraints>
+    <properties>
+      <background color="-1643535"/>
+    </properties>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="empty"/>
+    <children>
+      <component id="1ba7c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="4" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Arial Narrow" size="26" style="1"/>
+          <foreground color="-16185079"/>
+          <text value="Szukaj pacjenta"/>
+        </properties>
+      </component>
+      <component id="87d62" class="javax.swing.JButton" binding="xButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="4" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Narrow" size="18" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="X"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="88003" class="javax.swing.JButton" binding="szukajButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Narrow" size="18" style="1"/>
+          <text value="Szukaj"/>
+        </properties>
+      </component>
+      <component id="3dd88" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e874f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bd48" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="118" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Narrow" size="16" style="3"/>
+          <foreground color="-16185079"/>
+          <text value="PESEL:"/>
+        </properties>
+      </component>
+      <component id="9b718" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="212" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3090218"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f0448" class="javax.swing.JLabel" binding="JLabeleResult">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Narrow" size="16" style="1"/>
+          <foreground color="-16185079"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="38928" class="javax.swing.JLabel" binding="Label_docInfo">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Narrow" size="16" style="1"/>
+          <foreground color="-16185079"/>
+          <text value="Doktor "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

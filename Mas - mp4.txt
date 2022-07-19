@@ -1,0 +1,8 @@
+MAS mp4
+1. atrybut dynamiczny - Employee.setExtraBonus()
+2. unique - Office.number, setNumber;
+3. subset - mainSpec - Doctor.setMainSpec();
+4. ordered - Doctor - ArrayList specializations
+5. Bag - Reservation - RegistrationWorker - Service
+6. XOR - Medication - Freezer - Warehouse
+7. własne - atrybut statyczny - Service.extraFee, Service.setExtraFee()
